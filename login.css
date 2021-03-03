@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{   
+    width: 100%;
+    text-align: center;
+}
+.login{
+    border: 2px solid black;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(26, 231, 105);
+}
+.login1 input{
+    border: 2px solid black;
+    width: 100%;
+}
+.login label{
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+.login2 input{
+      padding: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+      border: 2px solid black;
+      margin-top: 50px;
+}
+.login2 input:hover{
+    background-color: chartreuse;
+    
+}
